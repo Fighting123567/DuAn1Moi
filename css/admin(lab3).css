@@ -1,0 +1,42 @@
+/* CSS cho bảng sản phẩm */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* CSS cho nút */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* CSS cho ô nhập liệu */
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+/* CSS cho hình ảnh */
+img {
+    border-radius: 5px;
+}
