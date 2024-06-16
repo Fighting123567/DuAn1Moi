@@ -223,6 +223,26 @@ ul.products li .product-infor  .product-price{
     color:#fff;
     text-decoration: none;
 }
+/* Hiệu ứng khi di chuột vào ảnh */
+ul.products li .product-top a.product-thumb img {
+    transition: transform 0.3s;
+}
+
+ul.products li .product-top a.product-thumb img:hover {
+    transform: scale(1.1);
+}
+
+/* Hiệu ứng khi di chuột vào nút "Mua ngay" */
+ul.products li .product-top a.buy-now {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+ul.products li .product-top a.buy-now:hover {
+    background-color: #696d6a; /* Thay đổi thành màu bạn muốn */
+    color: #0d0d0d; /* Thay đổi thành màu bạn muốn */
+}
+
+
 
 
 /* CSS for the child items */
